@@ -1,0 +1,250 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f0f13;
+  color: #f1f2f6;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: rgb(24, 24, 32);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: #00d358;
+}
+
+.titulo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #47ff50;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.menu a:hover {
+  color: #00d346;
+  transform: scale(1.2);
+}
+
+.banner {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #22222e;
+  padding: 64px;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.bannerConteudo {
+  max-width: 800px;
+  z-index: 2;
+}
+
+#tituloBanner {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.bannerConteudo p {
+  font-size: 19.2px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+#botao {
+  background-color: #14d866;
+  color: #fff;
+  padding: 13px 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#botao:hover {
+  background-color: #14b356;
+  transform: scale(1.2);
+}
+
+.produtos {
+  padding: 64px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 32px;
+  justify-content: center;
+}
+
+.cardProdutos {
+  background-color: #181820;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: grab;
+}
+
+
+.cardProdutos h2 {
+  font-size: 22px;
+  margin-bottom: 13px;
+  color: #fff;
+}
+
+.cardProdutos p {
+  font-size: 15.2px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.cardProdutos a {
+  margin-top: 16px;
+  width: 100%;
+  padding: 9px 0;
+  border: 1px solid #00d37b;
+  color: #00d358;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.cardProdutos a:hover {
+  background-color: #00d369;
+  color: #0f0f13;
+}
+
+.favoritos {
+  padding: 32px;
+}
+
+#destino {
+  background-color: rgba(0, 0, 0);
+  border: 2px solid #00d312;
+  border-radius: 10px;
+  padding: 48px 32px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#destino:hover {
+    transform: scale(1.03);
+}
+.formSection {
+  padding: 64px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0;
+}
+
+#formCadastro {
+  background-color: #181820;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #2f3542;
+}
+
+#formCadastro label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6.4px;
+  color: #f1f2f6;
+  font-size: 15px;
+}
+
+ #formCadastro input{
+  width: 100%;
+  padding: 12px 16px;
+  background-color: rgb(22, 58, 31);
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-right: 8px;
+}
+
+#confirmar {
+  background-color: #1ac55b;
+  color: #fff;
+}
+
+#confirmar:hover {
+  background-color: #28ff7a;
+}
+
+#limpar {
+  background-color: rgb(43, 43, 43);
+  border: 1px solid #2f3542;
+  color: #ffffff;
+}
+
+#limpar:hover {
+  background-color: rgb(73, 73, 73);
+  color: #fff;
+}
+
+#ResumoSolicitacao {
+  background-color: #181820;
+  border: 1px solid #00d37b;
+  border-radius: 10px;
+  padding: 24px;
+  min-height: 80px;
+}
+
+#botaoConfirmar {
+  width: 100%;
+  padding: 16px;
+  font-size: 17px;
+}
+

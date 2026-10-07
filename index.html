@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de jogos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js" defer ></script>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Araújo Games</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#favoritos">Favoritos</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="#inicio" class="banner" >
+            <div class="bannerConteudo">
+                <h1 id="tituloBanner">Araújo Games</h1>
+                <p>Eae Fanfarrão, Procura games e acessórios?! Então está na loja perfeita para você!
+                    Na Araújo Games você pode encontrar os melhor do mundo dos games! Venha visitar nossa Loja
+                    no bairro Nathanzinho Rocha ou viva no século 21 e compre tudo online nesse Site!
+                </p>
+                <a id="botao">Produtos</a>
+            </div>
+        </section>
+
+        <section id="#produtos" class="produtos">
+            <div id="produto1" class="cardProdutos" draggable="true">
+                <h2>Perosna 4 Revival</h2>
+                <img src="https://tse3.mm.bing.net/th/id/OIP.D7jM0xmQVuRS7VJCnyWh3gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" width="550px" height="380px">
+                <p>Remake de um dos melhores JRPGs da História</p>
+                <p>Preços a partir de...</p>
+                <a id="botaoProduto1">Saiba mais</a>
+            </div>
+
+            <div id="produto2" class="cardProdutos" draggable="true">
+                <h2>Power Glove</h2>
+                <img src="https://th.bing.com/th/id/OIP.uK3683eRu8gENIHxTv7JFwHaDd?w=336&h=163&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt=""  width="550px" height="380px">
+                <p>Versão de colecionador de um dos acessórios mais icônicos dos Games</p>
+                <p>Preços a partir de...</p>
+                <a id="botaoProduto2">Saiba mais</a>
+            </div>
+
+            <div id="produto3" class="cardProdutos" draggable="true">
+                <h2>GTA VI</h2>
+                <img src="https://tse1.mm.bing.net/th/id/OIP.AUwwOG0bLJWfTW507pn-WgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""  width="550px" height="380px">
+                <p>O jogo mas esperado de todos os tempos já disponível para compra</p>
+                <p>Preços a partir de...</p>
+                <a id="botaoProduto3">Saiba mais</a>
+            </div>
+
+        </section>
+
+        <section id="#favoritos" class="favoritos">
+            <div id="destino">
+                Arraste seus produtos favoritos para aqui.
+            </div>
+        </section>
+
+        <section id="#formulario" class="formSection">
+            <form id="formCadastro">
+                <label for="nome">Nome:</label>
+                <input class="" type="text" id="nome" required>
+                <br></br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="number" id="telefone">
+                <br><br>
+                <label for="servico_produto">Serviço ou produto desejado:</label>
+                <input type="text" id="servico_produto" >
+                <br><br>
+                <label for="quantidade_tipo">Quantidade ou tipo de atendimento:</label>
+                <input type="text" id="quantidade_tipo">
+                <br><br>
+                <label for="data">Data desejada:</label>
+                <input type="date" id="data">
+                <br><br>
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" rows="4"></textarea>
+                <br><br>
+                <label>Confirmo que os dados estão corretos.</label>
+                <input class="caixaDeChecar" type="checkbox" id="confirmacao" required>
+                <br><br>
+                <button id="confirmar" type="submit">Enviar</button>
+                <button id="limpar" type="reset">Limpar</button>
+            </form>
+
+            <div id="ResumoSolicitacao">
+            </div>
+
+            <button id="botaoConfirmar">
+                Clique para confirmar
+            </button>
+
+        </section>
+
+    </main>
+</body>
+
+</html> 
+
